@@ -1,0 +1,12 @@
+{
+  "name": "bugscoutai-sdk",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs,iife --global-name bugScoutAI"
+  }
+}
