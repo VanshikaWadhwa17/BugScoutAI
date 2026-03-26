@@ -1,4 +1,4 @@
-# NomadAI MVP Backend
+# BugScoutAI Backend (MVP)
 
 Simple backend for session replay and UX analytics. Built for speed and demos.
 
@@ -18,9 +18,9 @@ Simple backend for session replay and UX analytics. Built for speed and demos.
    ```
 
 2. **Set up Neon database**
-   
-   **Quick setup guide:** See [NEON_SETUP.md](./NEON_SETUP.md) for step-by-step instructions.
-   
+
+   Follow the options below to configure your Neon PostgreSQL database.
+
    **Option A: Using Neon Console (Recommended)**
    
    a. Sign up at [neon.tech](https://neon.tech) (free tier available)
@@ -62,7 +62,7 @@ Simple backend for session replay and UX analytics. Built for speed and demos.
    
    The server will be running at `http://localhost:3000`
 
-**Need help?** See [DATABASE_SETUP.md](./DATABASE_SETUP.md) for detailed Neon setup instructions.
+**Tip:** make sure `DATABASE_URL` and `AUTH_TOKEN` are set before running `npm run db:setup`.
 
 ## 📡 API Endpoints
 
